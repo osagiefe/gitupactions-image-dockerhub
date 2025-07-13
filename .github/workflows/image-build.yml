@@ -21,9 +21,9 @@ jobs:
           run: |
             ls -la 
             
-            docker build . -t ${{secrets.DOCKERHUB_USERNAME}}/demo-image-test:latest
+            docker build . -t ${{secrets.DOCKERHUB_USERNAME}}/city-image:latest
           
         - name: push the docker image to docker hub
           id: push-docker-image
-          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/demo-image-test:latest
+          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/city-image:latest
       
