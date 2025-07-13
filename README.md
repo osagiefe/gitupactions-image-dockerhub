@@ -33,3 +33,5 @@ Create index.html file & add the below code to it.
 # Store the docker hub credentials
 To push the docker image to docker hub we first need to log into docker hub so, for that we need to store the docker hub’s credentials in the secrets.
 In your repository, store the credentials in the secrets.# 
+
+# Working from a new stage
